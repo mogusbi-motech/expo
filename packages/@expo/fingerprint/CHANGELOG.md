@@ -8,6 +8,8 @@
 
 ### 🐛 Bug fixes
 
+- Introduced `enableReactImportsPatcher` to fix inconsistent fingerprint hash between workflows. ([#29660](https://github.com/expo/expo/pull/29660) by [@kudo](https://github.com/kudo))
+
 ### 💡 Others
 
 ## 0.9.0 — 2024-06-05
