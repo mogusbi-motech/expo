@@ -4,11 +4,14 @@
 
 ### 🛠 Breaking changes
 
+- This version includes fingerprint result breaking changes because `SourceSkips.PackageJsonScriptsIfNotContainRun` is enabled by default. ([#29679](https://github.com/expo/expo/pull/29679) by [@kudo](https://github.com/kudo))
+
 ### 🎉 New features
 
 ### 🐛 Bug fixes
 
 - Introduced `enableReactImportsPatcher` to fix inconsistent fingerprint hash between workflows. ([#29660](https://github.com/expo/expo/pull/29660) by [@kudo](https://github.com/kudo))
+- Introduced `SourceSkips.PackageJsonScriptsIfNotContainRun` to fix inconsistent fingerprint for expo-updates. ([#29679](https://github.com/expo/expo/pull/29679) by [@kudo](https://github.com/kudo))
 
 ### 💡 Others
 
