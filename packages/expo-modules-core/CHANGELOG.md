@@ -28,6 +28,7 @@
 - [Android] Removed unneeded in-between function call when resolving promise without arguments. ([#28944](https://github.com/expo/expo/pull/28944) by [@lukmccall](https://github.com/lukmccall))
 - Exported some TypeScript declarations (e.g. `EventEmitter`) from `expo-modules-core/types`. ([#28994](https://github.com/expo/expo/pull/28994) by [@tsapeta](https://github.com/tsapeta))
 - Moved `process` object declaration to global declaration. ([#29745](https://github.com/expo/expo/pull/29745) by [@tsapeta](https://github.com/tsapeta))
+- Use the `src` folder as the Metro target.
 
 ## 1.12.13 - 2024-06-05
 
