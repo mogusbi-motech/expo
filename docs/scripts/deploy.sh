@@ -3,8 +3,8 @@
 set -euo pipefail
 
 scriptdir=$(dirname "${BASH_SOURCE[0]}")
-bucket="$AWS_BUCKET"
-target="${1-$scriptdir/out}"
+#bucket="$AWS_BUCKET"
+target="${1-$scriptdir/../out}"
 
 if [ ! -d "$target" ]; then
   echo "target $target not found"
